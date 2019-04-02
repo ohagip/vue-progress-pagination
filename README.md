@@ -1,22 +1,23 @@
 # vue-progress-pagination
 プログレスバーでカウントダウンするページネーション  
-スライダーに利用
+スライダーに利用  
 
-## Install
+[DEMO](https://ohagip.github.io/vue-progress-pagination/)
+
+## Dependencies
 ```
 npm i --save gsap
 ```
 
-### components file
+## Install
 `./src/components/ProgressPagination.vue`  
-`./src/components/ProgressPaginationBullet.vue`
+`./src/components/ProgressPaginationBullet.vue`  
+をコピペ、スタイルなど適宜調整
 
 ## Usage
 ```
 <ProgressPagination :items="paginationItems" :change="onChangePagination" />
 ```
-
-[DEMO](https://ohagip.github.io/vue-progress-pagination/)
 
 ## Documentation
 
@@ -49,11 +50,6 @@ onChangePagination(nextIndex, prevIndex, next) {
 ---
 # Vue CLI npm script
 
-## Project setup
-```
-npm install
-```
-
 ### Compiles and hot-reloads for development
 ```
 npm run serve
@@ -64,15 +60,7 @@ npm run serve
 npm run build
 ```
 
-### Run your tests
-```
-npm run test
-```
-
 ### Lints and fixes files
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
